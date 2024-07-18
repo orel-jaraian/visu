@@ -13,7 +13,7 @@ from streamlit_plotly_events import plotly_events
 
 # Load your dataset
 # Load your dataset
-data = pd.read_csv(r'C:\Users\orel2\Downloads\archive (16)\diabetes_binary_health_indicators_BRFSS2015.csv')
+data = pd.read_csv('diabetes_binary_health_indicators_BRFSS2015.csv')
 
 scatter_features = ['HighBP', 'HighChol', 'BMI', 'Smoker', 'PhysActivity', 'HvyAlcoholConsump',
                     'NoDocbcCost', 'MentHlth', 'PhysHlth', 'Age', 'Education', 'Income']
