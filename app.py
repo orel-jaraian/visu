@@ -609,7 +609,7 @@ elif page == 'Mental & Physical Health':
         sort=False  # Ensure the order of categories is preserved
     )])
     fig_donut.update_layout(
-        title_text='Diabetes Patients by General Health Status',
+        title_text='Discover the distributions below by clicking on one of the slices here-',
         font=dict(
             family='Arial',
             size=16,
