@@ -111,7 +111,7 @@ if page == 'Lifestyle Indicators':
     'HvyAlcoholConsump': 'Heavy Alcohol Drinkers'
 })
 
-    features = ['Smoker', 'Physical Activity', 'Eating Fruit', 'Eating Vegetables', 'Heavy Alcohol Drinkers']
+    features = ['Smoker', 'Physical Activity', 'Eating Fruits', 'Eating Vegetables', 'Heavy Alcohol Drinkers']
 
 
     st.markdown(
